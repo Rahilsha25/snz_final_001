@@ -16,9 +16,127 @@ export const siteInfo = {
 
 export const navLinks = [
   { label: "Home", path: "/" },
+  { label: "About Us", path: "/about" },
   { label: "English Coaching", path: "/english-coaching" },
   { label: "Student Visa", path: "/student-visa" },
+  { label: "Testimonials", path: "/testimonials" },
   { label: "Contact", path: "/contact" },
+];
+
+// ---------------------------------------------------------------
+// PLACEHOLDER FOUNDER DATA - replace names/bios/photos below
+// ---------------------------------------------------------------
+export const founders = [
+  {
+    name: "Mr. Sohel Zaveri",
+    role: "Founder & CEO",
+    bio: "With years of experience guiding aspiring students abroad, Sohel founded SNZ Education to bring world-class study-abroad counselling to Anand. He personally mentors students on choosing the right destination, course, and university.",
+    photo:
+      "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80",
+    socials: { linkedin: "#", email: "education.snz@gmail.com" },
+    highlights: [
+      "10+ years in education consulting",
+      "500+ students placed globally",
+      "Expert in visa policy & SOPs",
+    ],
+  },
+  {
+    name: "Mrs. Naseem Zaveri",
+    role: "Co-Founder & Head of Coaching",
+    bio: "Naseem leads the IELTS, PTE, and Spoken English programs at SNZ Education. A certified trainer with a passion for teaching, she has helped hundreds of students achieve their target band scores on the first attempt.",
+    photo:
+      "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=600&q=80",
+    socials: { linkedin: "#", email: "education.snz@gmail.com" },
+    highlights: [
+      "Certified IELTS & PTE trainer",
+      "Specialist in speaking & writing modules",
+      "1:1 personalized coaching approach",
+    ],
+  },
+];
+
+export const milestones = [
+  { year: "2014", title: "Journey began", desc: "SNZ Education founded in Anand with a vision to make study-abroad accessible." },
+  { year: "2017", title: "100+ students", desc: "Crossed our first century of successful student placements abroad." },
+  { year: "2020", title: "Online coaching", desc: "Launched dedicated IELTS / PTE online coaching with mock platforms." },
+  { year: "2024", title: "7+ countries", desc: "Active visa & admission support across USA, UK, Canada, AUS, NZ, Europe, Dubai." },
+];
+
+// Photo testimonials (replace with real students)
+export const photoTestimonials = [
+  {
+    name: "Amit Patel",
+    tag: "IELTS Coaching",
+    photo: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=400&q=80",
+    quote: "SNZ Education helped me achieve my dream IELTS score. The personalized coaching and expert guidance made all the difference.",
+    rating: 5,
+    country: "in",
+  },
+  {
+    name: "Priya Sharma",
+    tag: "PTE Coaching",
+    photo: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80",
+    quote: "The tutors at SNZ Education are amazing! They helped me improve my grades significantly. The personalized attention and clear explanations helped me understand concepts better.",
+    rating: 5,
+    country: "in",
+  },
+  {
+    name: "Rahul Mehta",
+    tag: "Student Visa - USA",
+    photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+    quote: "The visa counseling at SNZ Education was exceptional. They guided me through the entire process. Highly recommended!",
+    rating: 5,
+    country: "us",
+  },
+  {
+    name: "Sneha Desai",
+    tag: "Student Visa - Canada",
+    photo: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=400&q=80",
+    quote: "From shortlisting universities to getting my study permit, SNZ team supported me at every step. I am now studying in Toronto.",
+    rating: 5,
+    country: "ca",
+  },
+  {
+    name: "Karan Shah",
+    tag: "IELTS - 8 Band",
+    photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80",
+    quote: "I scored 8 bands in IELTS thanks to SNZ's mock tests and writing feedback. The trainers are super dedicated.",
+    rating: 5,
+    country: "in",
+  },
+  {
+    name: "Aisha Khan",
+    tag: "Student Visa - UK",
+    photo: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+    quote: "Thank you SNZ Education for making my UK student visa process seamless. The application support was brilliant.",
+    rating: 5,
+    country: "gb",
+  },
+];
+
+// Video testimonials - replace YouTube IDs with real student videos
+export const videoTestimonials = [
+  {
+    name: "Maharshi Joshi",
+    tag: "New Zealand Student Visa",
+    youtubeId: "dQw4w9WgXcQ",
+    thumbnail: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80",
+    summary: "How SNZ Education helped Maharshi secure his NZ student visa in record time.",
+  },
+  {
+    name: "Mariya Vahora",
+    tag: "Canada Study Permit",
+    youtubeId: "dQw4w9WgXcQ",
+    thumbnail: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=800&q=80",
+    summary: "Mariya shares her end-to-end Canada study permit journey with SNZ.",
+  },
+  {
+    name: "Sahil Makwana",
+    tag: "UK Student Visa",
+    youtubeId: "dQw4w9WgXcQ",
+    thumbnail: "https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=800&q=80",
+    summary: "Sahil talks about cracking IELTS and landing his UK university admission.",
+  },
 ];
 
 export const heroBadges = [
