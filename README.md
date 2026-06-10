@@ -84,8 +84,18 @@ From here you can update:
 
 - **Founder photos** → swap the `photo` URLs in `founders` array
 - **Photo testimonials** → swap the `photo` URLs in `photoTestimonials`
-- **Video testimonials** → set `youtubeId` to the real YouTube video ID, e.g.
-  for `https://youtu.be/abc123XYZ` use `"youtubeId": "abc123XYZ"`
+- **Video testimonials (Reels-style, vertical 9:16)** → set `videoUrl` to a
+  self-hosted MP4 in portrait orientation. Recommended setup:
+  1. Drop your MP4 files into `frontend/public/videos/` (e.g.
+     `student-1.mp4`, `student-2.mp4`, …)
+  2. Reference them in `mock/data.js` as relative paths:
+     ```js
+     videoUrl: "videos/student-1.mp4",
+     poster:   "videos/student-1.jpg",  // optional thumbnail
+     ```
+  3. Recommended export: H.264 MP4, 1080×1920 (9:16), under ~15 MB each.
+  4. Hover on a reel card to preview · click to open the full-screen
+     portrait player (with play/pause, mute, prev/next).
 
 ---
 

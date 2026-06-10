@@ -114,28 +114,78 @@ export const photoTestimonials = [
   },
 ];
 
-// Video testimonials - replace YouTube IDs with real student videos
+// ---------------------------------------------------------------
+// Vertical (9:16) "Reels-style" video testimonials.
+// Replace `videoUrl` with your self-hosted MP4 (portrait orientation).
+// You can also host MP4s in /public/videos and reference them as
+// "/videos/student-1.mp4" — paths are relative thanks to homepage:"."
+// ---------------------------------------------------------------
 export const videoTestimonials = [
   {
     name: "Maharshi Joshi",
-    tag: "New Zealand Student Visa",
-    youtubeId: "dQw4w9WgXcQ",
-    thumbnail: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80",
-    summary: "How SNZ Education helped Maharshi secure his NZ student visa in record time.",
+    tag: "New Zealand",
+    location: "Auckland",
+    videoUrl:
+      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+    poster:
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80",
+    summary: "SNZ Education made my NZ student visa journey incredibly smooth.",
+    country: "nz",
   },
   {
     name: "Mariya Vahora",
     tag: "Canada Study Permit",
-    youtubeId: "dQw4w9WgXcQ",
-    thumbnail: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=800&q=80",
-    summary: "Mariya shares her end-to-end Canada study permit journey with SNZ.",
+    location: "Toronto",
+    videoUrl:
+      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+    poster:
+      "https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=600&q=80",
+    summary: "End-to-end Canada study permit journey with SNZ Education.",
+    country: "ca",
   },
   {
     name: "Sahil Makwana",
     tag: "UK Student Visa",
-    youtubeId: "dQw4w9WgXcQ",
-    thumbnail: "https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=800&q=80",
-    summary: "Sahil talks about cracking IELTS and landing his UK university admission.",
+    location: "London",
+    videoUrl:
+      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+    poster:
+      "https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=600&q=80",
+    summary: "Cracked IELTS and landed UK university admission with SNZ.",
+    country: "gb",
+  },
+  {
+    name: "Nihir Dodiya",
+    tag: "Australia Student Visa",
+    location: "Melbourne",
+    videoUrl:
+      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+    poster:
+      "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=600&q=80",
+    summary: "From Anand to Melbourne — couldn't have done it without SNZ.",
+    country: "au",
+  },
+  {
+    name: "Sonam Kumari",
+    tag: "NZ Student Visa",
+    location: "Wellington",
+    videoUrl:
+      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+    poster:
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=600&q=80",
+    summary: "Personalized assistance through every step of my visa process.",
+    country: "nz",
+  },
+  {
+    name: "Sahil Shaikh",
+    tag: "UK Student Visa",
+    location: "Manchester",
+    videoUrl:
+      "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+    poster:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80",
+    summary: "SNZ helped me find the best university in the UK.",
+    country: "gb",
   },
 ];
 
